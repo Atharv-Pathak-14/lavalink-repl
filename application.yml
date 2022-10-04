@@ -1,11 +1,11 @@
 server: # REST and WS server
-  port: 8080
+  port: 80
   address: 0.0.0.0
 lavalink:
   server:
     password: "youshallnotpass"
     sources:
-      youtube: true
+      youtube: false
       bandcamp: true
       soundcloud: true
       twitch: true
